@@ -6,5 +6,5 @@ class Atracao(models.Model):
     horario_func = models.TextField()
     idade_minima = models.IntegerField()
 
-    def __string__(self):
+    def __str__(self):
         return self.nome
