@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "comentarios",
     "avaliacoes",
     "endereco",
+    "django_filters"
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,4 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MEDIA_ROOT = 'imagens'
 
 MEDIA_URL = '/media/'
+
