@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['pontosturisticosdjango.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['pontosturisticosdjango.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
